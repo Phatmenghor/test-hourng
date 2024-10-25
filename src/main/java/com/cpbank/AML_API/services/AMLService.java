@@ -18,7 +18,7 @@ public class AMLService {
 
     public AMLResponse getRiskLevel(AMLRequest request) {
         String url = "https://data-uat-intuition.cambodiapostbank.com.kh/api/v1/f4a10790-2f67-457a-ac0f-04f3f10ac583/dataSets/5c464510-2087-4bb2-b91e-ae04c080ddc2/documents?runStrategy=true&includeDetail=true";
-        System.out.println("this after string url");
+        System.out.println("after string url");
         HttpHeaders headers = new HttpHeaders();
         headers.setContentType(MediaType.APPLICATION_JSON);
 
